@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# MovieMania - React Movie Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MovieMania is a simple React application that allows users to search for movies by name and view details about different movies. It uses the OMDB API for fetching movie data and the Lordicon API for enhancing the website's visual appeal.
 
-## Available Scripts
+# Demo
+![Screenshot (35)](https://github.com/Atigit15/MovieMania/assets/77894729/41b85454-34da-454b-bf44-4345463e6d22)
 
-In the project directory, you can run:
+# Features
+- Movie Search: Users can enter the name of a movie and click "Search" to find matching movies.
+- Detailed Movie Information: Clicking on a movie displays detailed information about the selected movie.
+- Visual Enhancements: The application uses Lordicon icons to improve the visual appeal.
+- Responsive Design: The application is designed to work seamlessly on various devices and screen sizes.
 
-### `npm start`
+# Technologies Used
+- React: A JavaScript library for building user interfaces.
+- OMDB API: An API to fetch movie data.
+- Lordicon API: For adding visually appealing icons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
+To run this project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine:
 
-### `npm test`
+```bash
+git clone https://github.com/your-username/moviemania.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+```bash
+cd moviemania
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the project dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Usage
+- Obtain an OMDB API key by visiting OMDB API and sign up for a free or paid API key.
 
-### `npm run eject`
+- Create a .env file in the root directory of your project and add your OMDB API key like this:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```makefile
+REACT_APP_OMDB_API_KEY=your-api-key-here
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Open your browser and navigate to http://localhost:3000 to use MovieMania.
 
-## Learn More
+# Contributing
+I welcome contributions from the community. If you'd like to contribute to this project, please follow these guidelines:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and test thoroughly.
+- Create a pull request with a clear title and description.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Reference
+- I made this project for learning purposes.
+- Be sure to check out the JavascriptMastery Youtube channel and [this](https://www.youtube.com/watch?v=b9eMGE7QtTk) amazing video.
